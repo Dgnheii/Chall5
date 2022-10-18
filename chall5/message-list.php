@@ -68,7 +68,7 @@ disconnect_db();
                     <td>Option</td>
                 <?php } ?>
             </tr>
-            <?php foreach ($message as $data) { $_SESSION['id'] = $data['id'];?>
+            <?php foreach ($message as $data) { ?>
             <tr>
                 <td>
                     <?php echo $data['content']; ?>
