@@ -2,7 +2,6 @@
 require './libs/messages.php';
 session_start();
 $id = isset($_GET['id']) ? $_GET['id'] : '';
-$id = $_SESSION['id'];
 $user_gui = $_SESSION['username'];
 $user_nhan = $_SESSION['user_nhan'];
 if ($id){
