@@ -80,11 +80,7 @@ disconnect_db();
             }
 
             body {
-                background: #bff;
-            }
-            
-            input {
-                background: #bff;
+                background: linear-gradient(90deg,  rgba(66, 183, 245,0.8) 0%,rgba(66, 245, 189,0.4) 100%);
             }
 
             th {
@@ -101,7 +97,6 @@ disconnect_db();
             font-family: Arial, Helvetica, sans-serif;
             font-size: .9em;
             border: 1px solid #000;
-            background: #bff;
             }
             input {
                 background: #b8e1ff;

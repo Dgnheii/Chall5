@@ -32,7 +32,7 @@ if($_SESSION['user_nhan'] == "admin"){
             }
 
             body {
-                background: #bff;
+                background: linear-gradient(90deg,  rgba(66, 183, 245,0.8) 0%,rgba(66, 245, 189,0.4) 100%);;
             }
 
             th {
@@ -49,7 +49,6 @@ if($_SESSION['user_nhan'] == "admin"){
             font-family: Arial, Helvetica, sans-serif;
             font-size: .9em;
             border: 1px solid #000;
-            background: #bff;
             }
             
             input {

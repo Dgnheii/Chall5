@@ -65,7 +65,7 @@ disconnect_db();
                 <td><?php echo $item['phone']; ?></td>
                 <td>
                     <form method="post" action="student-delete.php">
-                    <input onclick="window.location = 'student-edit.php?username=<?php echo $item['username'];?>'" type="button" value="Sửa"/>
+                        <input onclick="window.location = 'student-edit.php?username=<?php echo $item['username']; ?>'" type="button" value="Sửa"/>
                         <input type="hidden" name="username" value="<?php echo $item['username']; ?>"/>                   
                         <input onclick="return confirm('Bạn có chắc muốn xóa không?');" type="submit" name="delete" value="Xóa"/>
                     </form>                        

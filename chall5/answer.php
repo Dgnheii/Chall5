@@ -38,7 +38,7 @@
     <title><?php echo $tenbai; ?></title>
     <style type="text/css">
             body {
-                background: #bff;
+                background: linear-gradient(90deg,  rgba(66, 183, 245,0.8) 0%,rgba(66, 245, 189,0.4) 100%);;
             }
             button {
                 background: #b8e1ff;
